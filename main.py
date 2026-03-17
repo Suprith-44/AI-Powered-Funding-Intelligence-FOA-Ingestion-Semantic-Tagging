@@ -50,20 +50,6 @@ RULE_KEYWORDS = {
     "U.S. policy goals": ["U.S. policy goals", "embassy priorities", "strategic partnership"],
 }
 
-
-# ---------------- RULE-BASED KEYWORDS ----------------
-
-RULE_KEYWORDS = {
-    "food safety": ["food safety", "food regulation", "food standards"],
-    "agriculture": ["agriculture", "farming", "agribusiness"],
-    "training": ["training program", "training course", "training"],
-    "capacity building": ["capacity building", "skills development"],
-    "government officials": ["government officials", "public sector"],
-    "research": ["research", "study", "investigation"],
-    "trade development": ["trade barriers", "international trade"]
-}
-
-
 # ---------------- RULE-BASED TAGGING ----------------
 
 def rule_based_tagging(text):
